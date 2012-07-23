@@ -5,7 +5,7 @@ The extension can be used to search incrementally not only
 for Japanese but for English text.
 
 
-This extension includes following binaries, see LICENSE for detail: 
+This extension uses following libraries, see LICENSE for detail: 
 - PyMigemo: 
     http://www.atzm.org/etc/pymigemo.html
     2-clause BSD Lisence.
