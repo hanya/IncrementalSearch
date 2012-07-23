@@ -1,0 +1,32 @@
+
+This is incremental search extension for Japanese powered 
+by PyMigemo/CMigemo for OpenOffice kind works on Writer and Calc. 
+The extension can be used to search incrementally not only 
+for Japanese but for English text.
+
+
+This extension includes following binaries, see LICENSE for detail: 
+- PyMigemo: 
+    http://www.atzm.org/etc/pymigemo.html
+    2-clause BSD Lisence.
+
+
+Usage
++ Install CMigemo
++ Install this extension package
++ Setup dictionary position through Tools - Extension Manager
+
+
+How to make package
+  - First you have to build PyMigemo for your target platform.
+  - Place migemo.so (or .pyd) file in pymigemo/NAME directory.
+    Which NAME should be plathome_processor_stringform_pythonversion.
+    For example, 
+      linux_x86_ucs2_26 for non 64bit build
+      linux_x86_64_ucs4_26 for 64bit and wide unicode build
+      windows_x86_ucs2_26 for normal build on Windows
+    And also make __init__.py file into the directory.
+
+  - Then execute mkpkg.sh
+  - Resulting extension package can be find in build/.
+

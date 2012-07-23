@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data 
+xmlns:oor="http://openoffice.org/2001/registry" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+oor:package="org.openoffice.Office" 
+oor:name="OptionsDialog">
+	<node oor:name="Nodes">
+		<node oor:name="ProductName " oor:op="fuse">
+			<node oor:name="Leaves">
+				<node oor:name="mytools.bookmarks.BookmarksMenu:Settings" oor:op="replace">
+					<prop oor:name="Id">
+						<value>mytools.search.IncrementalSearch</value>
+					</prop>
+					<prop oor:name="Label">
+						<value xml:lang="en-US">Settings</value>
+						<value xml:lang="ja">設定</value>
+					</prop>
+					<prop oor:name="OptionsPage">
+						<value>%origin%/dialogs/Options.xdl</value>
+					</prop>
+					<prop oor:name="EventHandlerService">
+						<value>incsearch.OptionsPageHandler</value>
+					</prop>
+				</node>
+			</node>
+		</node>
+	</node>
+</oor:component-data>

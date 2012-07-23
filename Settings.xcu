@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data 
+xmlns:oor="http://openoffice.org/2001/registry" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+oor:package="mytools" 
+oor:name="IncrementalSearch">
+	<node oor:name="Settings">
+		<prop oor:name="Dictionary" oor:type="xs:string">
+			<value></value>
+		</prop>
+	</node>
+</oor:component-data>

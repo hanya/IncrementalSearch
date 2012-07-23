@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="Options" dlg:left="0" dlg:top="0" dlg:width="260" dlg:height="185" dlg:closeable="true" dlg:moveable="true" dlg:title="Option" dlg:withtitlebar="false">
+ <dlg:bulletinboard>
+  <dlg:fixedline dlg:id="line_dictionary" dlg:tab-index="0" dlg:left="5" dlg:top="4" dlg:width="245" dlg:height="10" dlg:value="Dictionary"/>
+  <dlg:textfield dlg:id="edit_dictionary" dlg:tab-index="1" dlg:left="8" dlg:top="19" dlg:width="195" dlg:height="12"/>
+  <dlg:button dlg:id="btn_dictionary" dlg:tab-index="2" dlg:left="209" dlg:top="19" dlg:width="39" dlg:height="12" dlg:value="~Select"/>
+ </dlg:bulletinboard>
+</dlg:window>
